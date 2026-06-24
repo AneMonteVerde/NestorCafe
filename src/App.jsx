@@ -384,7 +384,7 @@ corners.forEach(([x, y]) => {
           <a href="#topo" className="brand" aria-label="Nestor Café — início">
 <span className="brand-mark" aria-hidden="true">
   <img
-    src="/logo-nestor-cafe.svg"
+    src="/nestor-header-icon-48.png"
     alt=""
     className="brand-logo"
   />

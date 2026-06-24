@@ -5,7 +5,9 @@
       "Bash(npm run *)",
       "Bash(ls public/assets/images)",
       "Bash(ls src/assets)",
-      "Bash(grep -rn \"momento-cafe\" src/ public/)"
+      "Bash(grep -rn \"momento-cafe\" src/ public/)",
+      "Bash(cat index.html)",
+      "Bash(cat public/index.html)"
     ]
   }
 }
