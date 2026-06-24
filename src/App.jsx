@@ -382,14 +382,13 @@ corners.forEach(([x, y]) => {
       <header className="site-header" id="topo">
         <div className="header-inner">
           <a href="#topo" className="brand" aria-label="Nestor Café — início">
-            <span className="brand-mark" aria-hidden="true">
-              <svg viewBox="0 0 32 32" width="30" height="30" fill="none">
-                <path d="M8 13h13v6a5 5 0 0 1-5 5h-3a5 5 0 0 1-5-5v-6Z" stroke="currentColor" strokeWidth="1.4" />
-                <path d="M21 14h2.5a2.5 2.5 0 0 1 0 5H21" stroke="currentColor" strokeWidth="1.4" />
-                <path d="M11 9c-.6-1 .4-1.8 0-3M14.5 9c-.6-1 .4-1.8 0-3M18 9c-.6-1 .4-1.8 0-3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
-                <path d="M7 27h17" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
-              </svg>
-            </span>
+<span className="brand-mark" aria-hidden="true">
+  <img
+    src="/logo-nestor-cafe.svg"
+    alt=""
+    className="brand-logo"
+  />
+</span>
             <span className="brand-text">
               <span className="brand-name">Nestor Café</span>
               <span className="brand-tag">desde 2013</span>
