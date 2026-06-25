@@ -145,7 +145,7 @@ const HERO_HIGHLIGHTS = [
 ]
 
 const STATS = [
-  { icon: IconLeaf, value: '+10', label: 'anos de história' },
+  { icon: IconLeaf, value: '+13', label: 'anos de história' },
   { icon: IconCup, value: '100%', label: 'café selecionado' },
   { icon: IconHeart, value: 'Feito', label: 'com carinho' },
 ]
@@ -815,7 +815,7 @@ function App() {
 
         <div className="footer-bottom">
           <p>© {new Date().getFullYear()} Nestor Café. Todos os direitos reservados.</p>
-          <p className="footer-credit">Desenvolvido por <a href="https://wa.me/5591993531239?text=Ane,%20vim%20do%20site%20da%20Nestor%20Caf%C3%A9%20que%20foi%20desenvolvido%20por%20voc%C3%AA%20e%20gostaria%20de%20algumas%20informa%C3%A7%C3%B5es.%20" target="_blank" rel="noopener noreferrer">Ane</a> com <span aria-hidden="true">♥</span></p>
+          <p className="footer-credit">Desenvolvido por Ane com <span aria-hidden="true">♥</span></p>
         </div>
       </footer>
 
