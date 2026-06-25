@@ -7,7 +7,12 @@
       "Bash(ls src/assets)",
       "Bash(grep -rn \"momento-cafe\" src/ public/)",
       "Bash(cat index.html)",
-      "Bash(cat public/index.html)"
+      "Bash(cat public/index.html)",
+      "Skill(run)",
+      "Bash(command -v chromium-cli)",
+      "Bash(command -v npx)",
+      "PowerShell(Start-Process \"http://127.0.0.1:5174/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:5174/)"
     ]
   }
 }
